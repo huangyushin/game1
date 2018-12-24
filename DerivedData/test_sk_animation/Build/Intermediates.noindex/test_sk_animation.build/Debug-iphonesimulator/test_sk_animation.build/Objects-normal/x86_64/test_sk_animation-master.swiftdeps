@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "d73a4dbfe1e4e7bbab78a7014d2db23d"
+build_time: [1545619500, 816525000]
+inputs:
+  "/Users/huangyuhsin/Desktop/Git\u7BA1\u63A7/test_sk_animation/test_sk_animation/GameScene.swift": [1545284506, 0]
+  "/Users/huangyuhsin/Desktop/Git\u7BA1\u63A7/test_sk_animation/test_sk_animation/GameViewController.swift": [1545277992, 0]
+  "/Users/huangyuhsin/Desktop/Git\u7BA1\u63A7/test_sk_animation/test_sk_animation/AppDelegate.swift": [1545276022, 0]

@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4924309021CB41F600897FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4924308F21CB41F600897FB0 /* AppDelegate.swift */; };
-		4924309221CB41F600897FB0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4924309121CB41F600897FB0 /* GameScene.sks */; };
-		4924309421CB41F600897FB0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4924309321CB41F600897FB0 /* Actions.sks */; };
 		4924309621CB41F600897FB0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4924309521CB41F600897FB0 /* GameScene.swift */; };
 		4924309821CB41F600897FB0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4924309721CB41F600897FB0 /* GameViewController.swift */; };
 		4924309B21CB41F600897FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4924309921CB41F600897FB0 /* Main.storyboard */; };
 		4924309D21CB41F600897FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4924309C21CB41F600897FB0 /* Assets.xcassets */; };
 		492430A021CB41F600897FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4924309E21CB41F600897FB0 /* LaunchScreen.storyboard */; };
+		492430A821CB44C800897FB0 /* BearImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 492430A721CB44C700897FB0 /* BearImages.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4924308C21CB41F600897FB0 /* test_sk_animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_sk_animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4924308F21CB41F600897FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4924309121CB41F600897FB0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4924309321CB41F600897FB0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		4924309521CB41F600897FB0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4924309721CB41F600897FB0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4924309A21CB41F600897FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4924309C21CB41F600897FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4924309F21CB41F600897FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492430A121CB41F600897FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492430A721CB44C700897FB0 /* BearImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BearImages.atlas; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +58,8 @@
 		4924308E21CB41F600897FB0 /* test_sk_animation */ = {
 			isa = PBXGroup;
 			children = (
+				492430A721CB44C700897FB0 /* BearImages.atlas */,
 				4924308F21CB41F600897FB0 /* AppDelegate.swift */,
-				4924309121CB41F600897FB0 /* GameScene.sks */,
-				4924309321CB41F600897FB0 /* Actions.sks */,
 				4924309521CB41F600897FB0 /* GameScene.swift */,
 				4924309721CB41F600897FB0 /* GameViewController.swift */,
 				4924309921CB41F600897FB0 /* Main.storyboard */,
@@ -132,10 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4924309B21CB41F600897FB0 /* Main.storyboard in Resources */,
-				4924309221CB41F600897FB0 /* GameScene.sks in Resources */,
 				4924309D21CB41F600897FB0 /* Assets.xcassets in Resources */,
 				492430A021CB41F600897FB0 /* LaunchScreen.storyboard in Resources */,
-				4924309421CB41F600897FB0 /* Actions.sks in Resources */,
+				492430A821CB44C800897FB0 /* BearImages.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
